@@ -1,5 +1,8 @@
 # E_D_S
 
+Установка зависимостей:
+pip install -r requirements.txt
+
 run app:
 
 ## 1. server.py
