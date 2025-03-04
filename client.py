@@ -21,7 +21,7 @@ def main():
     print("Register client public key:", resp.json())
 
     # ===== СЦЕНАРИЙ 1 =====
-    print("\n=== СЦЕНАРИЙ 1 ===")
+    print("\n Сценарий 2:")
 
     # Клиент подписывает сообщение
     message = "Hello from client A!"
@@ -37,7 +37,7 @@ def main():
     print("Scenario 1 verify response:", resp.json())
 
     # ===== СЦЕНАРИЙ 2 =====
-    print("\n=== СЦЕНАРИЙ 2 ===")
+    print("\n Сценарий 1:")
 
     # 1) Получаем публичный ключ сервера
     resp = requests.get(f'{SERVER_URL}/server_public_key')
